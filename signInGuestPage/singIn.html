@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in</title>
+  <link rel="stylesheet" href="signIn.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  />
+<body>
+  <div class="container">
+    <a href="../index.html" style="align-self: flex-start">
+      <span class="material-icons" style="font-size: 32px; margin: 16px">
+        west
+      </span>
+    </a>
+    <img src="../assets/edu.png" alt="logo" />
+
+    <form action="../homePage/home.html">
+      <input type="text" placeholder="username" id="username" /><br />
+
+      <input type="password" placeholder="password" id="password" /><br />
+      <div>
+        <input
+          type="checkbox"
+          id="rememberme"
+          style="
+            width: 15px;
+            height: 15px;
+            margin: 16px 8px 16px 0;
+            border-radius: 5px;
+            text-align: center;
+          "
+        />remember me!<br />
+      </div>
+
+      <button
+        class="primary-button"
+        type="button"
+        id="login"
+        onclick="loginUser()"
+      >
+        Log in
+      </button>
+    </form>
+
+</body>
+</html>
