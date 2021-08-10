@@ -26,24 +26,29 @@
       </a>
       <img src="../assets/edu.png" alt="logo" />
 
-      <form>
-        <input type="text" placeholder="username" id="username" /><br />
+      <section id="login-section">
+        <form action="../homePage/home.html">
+          <input type="text" placeholder="username" id="username" /><br />
 
-        <input list="userType" placeholder="user type" />
-        <datalist id="userType">
-          <option value="Student"></option>
-          <option value="Teacher"></option>
-        </datalist>
+          <select id="userType">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+          </select>
 
-        <button
-          class="primary-button"
-          type="button"
-          id="login"
-          onclick="loginUser()"
+          <button class="primary-button" type="button" id="login-button">
+            Log in
+          </button>
+        </form>
+      </section>
+
+      <section class="welcome" id="welcome">
+        <h2 id="user-name">Welcome</h2>
+        <p>It’s time to start our journey!</p>
+
+        <a href="../homePage/home.html"
+          ><button class="go-button">Go!</button></a
         >
-          Log in
-        </button>
-      </form>
+      </section>
     </div>
     <script src="signIn.js"></script>
   </body>
