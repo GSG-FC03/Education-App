@@ -27,10 +27,10 @@ const mainContainer = document.getElementById('container');
             courseName.setAttribute('id','name');
             courseName.textContent = "Course name: " + course.name;
 
-            //create a p  element inside the div element for the course id
-            const courseId = document.createElement('p');
-            courseId.setAttribute('id', 'courseId');
-            courseId.textContent = "ID: " + course.id;
+            //create a p  element inside the div element for the course type
+            const courseClassfication = document.createElement('p');
+            courseClassfication.setAttribute('id', 'Classification');
+            courseClassfication.textContent = "Course type: " + course.courseType;
 
             //create an a   element inside the div element for the course live link
             const courseLink = document.createElement('a');
@@ -41,7 +41,7 @@ const mainContainer = document.getElementById('container');
             //to make the added element appear in html we use append child method
             container.appendChild(courseContainer);
             courseContainer.appendChild(courseName);
-            courseContainer.appendChild(courseId);
+            courseContainer.appendChild(courseClassfication);
             courseContainer.appendChild(courseLink);
         });
 
