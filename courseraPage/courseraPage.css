@@ -1,0 +1,49 @@
+body {
+    
+    line-height: 1.6;
+    box-sizing: border-box;
+    background-color: #E3F0FF;
+    font-family: "Questrial";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    
+    color:black;
+}
+#logo {
+    margin: 55px 88px 0px 100px;
+    object-fit: contain;
+    max-width: 260px;
+    max-height: 260px;
+  }
+ 
+  
+#courseContainer{
+    background-color: white;
+    padding: 1.5rem 1.5rem;
+    margin: 1rem ;
+    
+    border: solid white 2px;
+    border-radius: 5px;
+}
+#liveLink:hover{
+    cursor:pointer;
+}
+@media only screen and (min-width: 1024px) {
+    #logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+ }
+} 
+@media only screen and (min-width: 768px) {
+    #logo{
+    
+            display: block;
+            margin-left: 284px;
+            margin-right: auto;
+           
+        width: 20%;
+}
+}
