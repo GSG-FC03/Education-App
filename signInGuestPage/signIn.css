@@ -37,7 +37,6 @@ form {
   margin-top: 80px;
 }
 
-
 input,
 select {
   width: 213px;
@@ -63,7 +62,7 @@ input::placeholder {
   color: #fff;
 }
 
-
+/* style for the welcome section, and display none*/
 .welcome {
   display: none;
 }

@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign in</title>
+    <!-- linking with css file -->
     <link rel="stylesheet" href="../signInGuestPage/signIn.css" />
+    <!-- linking google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
       rel="stylesheet"
     />
+    <!-- linking google icons-->
     <link
-
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
   </head>
   <body>
     <div class="container">
+      <!-- adding back arrow icon and link it with landing page -->
       <a href="../index.html" style="align-self: flex-start">
         <span class="material-icons" style="font-size: 32px; margin: 16px">
           west
         </span>
       </a>
+      <!-- adding the logo -->
       <img src="../assets/edu.png" alt="logo" />
 
+      <!-- login form -->
       <section id="login-section">
         <form action="../homePage/home.html">
           <input type="text" placeholder="username" id="username" /><br />
@@ -43,6 +47,7 @@
         </form>
       </section>
 
+      <!-- welcome "username" message -->
       <section class="welcome" id="welcome">
         <h2 id="user-name">Welcome</h2>
         <p>It’s time to start our journey!</p>
@@ -52,6 +57,7 @@
         >
       </section>
     </div>
+    <!-- linking with javaScript file -->
     <script src="../signInGuestPage/signIn.js"></script>
   </body>
 </html>
