@@ -21,7 +21,7 @@
     color: #fff;
     border-color: #1276d3;
     border-radius: 5px;
-    margin: 43px 0px 0px 11px;
+    margin: 26px 0px 0px 11px;
     width: 119px;
     height: 28px;
     font-size: 18px;
@@ -32,8 +32,8 @@
     margin-top: 35px;
   }
   .edu-logo {
-    width: 154px;
-    height: 142px;
+    width: 150px;
+    height: 160px;
     margin-left: 106px;
     margin-top: 10px;
   }
@@ -67,8 +67,8 @@
     }
     .edu-logo {
       margin-left: 91px;
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 130px;
       margin-top: 123px;
     }
     .code-logo {
@@ -115,7 +115,7 @@
     .edu-logo {
       margin-left: 91px;
       width: 150px;
-      height: 150px;
+      height: 160px;
       margin-top: 123px;
     }
     .code-logo {
@@ -145,10 +145,10 @@
       margin-bottom: 29px;
     }
     .sign-out {
-      margin-left: 80px;
-      height: 50px;
-      width: 195px;
-      font-size: 30px;
+      margin-left: 70px;
+      height: 40px;
+      width: 155px;
+      font-size: 21px;
     }
   }
   
