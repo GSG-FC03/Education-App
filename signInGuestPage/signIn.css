@@ -28,7 +28,7 @@ a:visited {
 }
 
 img {
-  margin: 80px 88px 0px 100px;
+  margin: 20px 88px 20px 74px;
   object-fit: contain;
   width: 190px;
   height: 190px;
@@ -42,8 +42,8 @@ form {
 
 input,
 select {
-  width: 213px;
-  height: 34px;
+  width: 220px;
+  height: 37px;
   border-radius: 5px;
   border: none;
 }
@@ -58,17 +58,23 @@ input::placeholder {
   width: 145px;
   height: 32px;
 
-  margin: 45px 0 0px 0;
+  margin: 35px 0px 0px 0px;
 
   background-color: #1276d3;
   border-radius: 5px;
   border-color: #1276d3;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   border: none;
 }
-
+.sign-in{
+  font-size: 27px;
+  margin-left: 65px;
+}
 /* style for the welcome section, and display none*/
+img {
+  margin: 20px 88px 0px 74px;
+}
 .welcome {
   display: none;
 }
@@ -84,7 +90,7 @@ p {
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 27px;
 }
 
 .go-button {
@@ -92,10 +98,11 @@ p {
   height: 43px;
   align-items: center;
   margin-top: 72px;
+  margin-left: 36px;
   background-color: #1276d3;
   border-radius: 5px;
   border-color: #1276d3;
-  font-size: 20px;
+  font-size: 27px;
   color: #fff;
   border: none;
 }
