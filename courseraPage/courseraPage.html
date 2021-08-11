@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="#">
+    <link rel="shortcut icon" href="#" />
     <title>Coursera Page</title>
     <link rel="stylesheet" href="/courseraPage/courseraPage.css" />
     <link
@@ -12,21 +12,27 @@
       rel="stylesheet"
     />
     <link
-    href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-      <main id= "container">
-      <header>
-          <!--Add homepage icon and link it to the home page -->
-        <a href="../homePage/home.html">
-            <i class="ri-home-6-fill"id="homeIcon"></i>
+    <main>
+      <header class="header">
+        <!--Add homepage icon and link it to the home page -->
+        <a href="../homePage/home.html" class="homeIcon">
+          <i class="ri-home-3-fill" id="homeIcon" style="height: 3rem"></i>
         </a>
       </header>
-            <!-- Add logo image-->
-        <img src="../assets/edu.png" alt="education-logo"id="logo"/>
-       </main>  
+      <!-- Add logo image inside center tag to put at the center of the page -->
+      <center>
+        <a href="../homePage/home.html"
+          ><img src="../assets/edu.png" alt="education-logo" id="logo"
+        /></a>
+      </center>
+      <!-- Create a container to put the cards on it-->
+      <div id="container"></div>
+    </main>
     <script src="../courseraPage/courseraPage.js"></script>
   </body>
 </html>
