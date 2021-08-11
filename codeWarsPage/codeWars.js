@@ -1,5 +1,7 @@
 // creating a variable to link main tag with js
 const main = document.getElementById("root");
+const container = document.createElement("div");
+container.setAttribute("class", "container");
 // creating an array to get the slugs from it - slug is the keyword that used to search about the challenge
 const challenges = [
   "sum-mixed-array",
@@ -26,29 +28,34 @@ challenges.forEach((reach) => {
       // creating a main box that the data are rendered in
       const box = document.createElement("div");
       box.setAttribute("class", "content");
-    // creating the first key and assign it to variable called name, have a class = "name"
+      // creating the first key and assign it to variable called name, have a class = "name"
       const name = document.createElement("h1");
       name.setAttribute("class", "name");
-      name.textContent = "The name of challenge: " + data.name;
-      // creating the second key and assign it to variable called Category, have a class = "Category"   
-      const Category = document.createElement("h2");
+      name.textContent = "Challenge Name: " + data.name;
+      // creating the second key and assign it to variable called Category, have a class = "Category"
+      const Category = document.createElement("h5");
       Category.setAttribute("class", "category");
       Category.textContent = data.category;
-    // creating the third key and assign it to variable called Kata, have a class = "kata"  
-      const Kata = document.createElement("h2");
+      Category.innerHTML = `Challenge Category: ` + data.category;
+
+      // creating the third key and assign it to variable called Kata, have a class = "kata"
+      const Kata = document.createElement("h5");
       Kata.setAttribute("class", "kata");
       Kata.textContent = data.rank.name;
-    // creating the forth key and assign it to variable called link, have a class = "link"  
-    // create varaible called url, which take the url from api and save it on
+      Kata.innerHTML = `Kata number: ` + data.rank.name;
+
+      // creating the fourth key and assign it to variable called link, have a class = "link"
+      // create varaible called url, which take the url from api and save it on
       const url = data.url;
       const link = document.createElement("a");
       link.setAttribute("class", "link");
-      link.innerHTML = `<a href = "${url}" >Press here to move to the challenge</a>`;
+      link.innerHTML = `Challenge link: <b><a href = "${url}" >Click Here</a></b>`;
       console.log(url);
 
-    // appending childes to its fathers
-    // father.appendChild(child)
-      main.appendChild(box);
+      // appending childes to its fathers
+      // father.appendChild(child)
+      main.appendChild(container);
+      container.appendChild(box);
       box.appendChild(name);
       box.appendChild(Category);
       box.appendChild(Kata);

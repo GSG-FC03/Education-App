@@ -10,6 +10,9 @@ body {
   padding: 0;
   margin: 0;
 }
+a:visited {
+  color: #000;
+}
 
 a:visited {
   color: #000;
@@ -30,7 +33,6 @@ img {
   width: 190px;
   height: 190px;
 }
-
 form {
   display: flex;
   flex-direction: column;
@@ -55,7 +57,9 @@ input::placeholder {
 .primary-button {
   width: 145px;
   height: 32px;
+
   margin: 45px 0 0px 0;
+
   background-color: #1276d3;
   border-radius: 5px;
   border-color: #1276d3;
@@ -63,6 +67,7 @@ input::placeholder {
   color: #fff;
   border: none;
 }
+
 
 /* style for the welcome section, and display none*/
 .welcome {

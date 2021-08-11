@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #e3f0ff;
+    font-family: "Questrial";
+  }
+  /* ::-webkit-scrollbar{
+      display: none;
+  } */
+  a.home-button {
+    text-decoration: none;
+    color: black;
+    height: 2rem;
+  }
+  a:hover {
+    color: #072f54;
+  }
+  .header {
+    height: 3rem;
+    padding: 1.2rem 1rem;
+  }
+  
+  .logo {
+    width: 8rem;
+    display: block;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .content {
+    margin: 1rem;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 1rem;
+    line-height: 1.8;
+  }
+  
+  .content:hover {
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translate3D(0, -2px, 0);
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+  /* Media Query for Tablet */
+  @media screen and (min-width: 768px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  /* Media Query for Laptop */
+  
+  @media screen and (min-width: 1024px) {
+    .content {
+      flex: 1 1 calc(30% - 1.5rem);
+    }
+  }
+  
