@@ -64,4 +64,6 @@ As a user, I can click on `Let's Go!` button in the first page to move on the ne
 
 ## Lead Mentor
 - [Sara Abu Awwad](https://github.com/sara219)
+- [Haneen Shahwan](https://github.com/hshahwan)
+- [Lina](https://github.com/lina-jamal)
 - [Mohammed Abu Raida](https://github.com/mo7mad4)
