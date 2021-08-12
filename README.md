@@ -27,7 +27,7 @@ Codewars offers coding challenges as a practical technique to practice what they
 
 ## The user journey
 
-As a user, I can click on `Let's Go!` button in the first page to move on the next one. Also, I can enter my username and select either I am student or teacher to log in the website, save my login data, choose to either open coursera or codwars. If I choose coursera, I should be able to see all the available courses and I can go back to the home page, also if I choose codewars I should be able to see all challenges and I can go back to the home page.Also, I can Log out and return to login page.
+As a user, I can click on `Let's Go!` button in the first page to move on the next one. Also, I can enter my username and select either I am student or teacher to log in the website, save my login data, choose to either open coursera or codwars. If I choose coursera, I should be able to see all the available courses and I can go back to the home page, also if I choose codewars I should be able to see all challenges and I can go back to the home page.Also, I can Log out from home page and return to login page.
 
 ## The user story
 
@@ -38,7 +38,7 @@ As a user, I can click on `Let's Go!` button in the first page to move on the ne
 - As a user, I want to see all the available courses on coursera and I can go back to the home page.
 - As a user, I want to see all challenges on codewars and I can go back to the home page.
 - As a user, I can join as a guest to see the courses and challenges.
-- As a user, I can Log out and return to login page.
+- As a user, I can Log out from home page and return to login page.
 
 ## Technology used and the purpose
 
@@ -64,3 +64,6 @@ As a user, I can click on `Let's Go!` button in the first page to move on the ne
 
 ## Lead Mentor
 - [Sara Abu Awwad](https://github.com/sara219)
+
+## Co-Lead Mentor
+[Mohammed Abu Raida](https://github.com/mo7mad4)
